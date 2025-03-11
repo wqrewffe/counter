@@ -66,16 +66,16 @@ body {
 }
 
 footer {
-    position: relative; 
+    position:fixed; 
     bottom: 10px;
     width: 100%;
     text-align: center;
-    padding: 5px 0;
+    padding: 10px 0;
     background-color: rgba(0, 0, 0, 0.3); 
 }
 
 .footer-text {
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
     color: white;
     opacity: 0.8;
