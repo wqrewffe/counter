@@ -6,6 +6,7 @@ const speed = document.getElementById("speed");
 let count1 = 0;
 let lastClickTime = 0;
 let cps = 0;
+
 increase.onclick = function () {
     count1++;
     count.textContent = count1;
@@ -30,3 +31,7 @@ reset.onclick = function () {
     count.textContent = count1;
     speed.textContent = "Speed: 0 CPS"; 
 };
+
+document.addEventListener("contextmenu", function (event) {
+    event.preventDefault();
+});
